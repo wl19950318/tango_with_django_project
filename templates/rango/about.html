@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %} <!--New line-->
+<html>
+	<head>
+		<title>About</title>
+		
+	</head>
+	
+	<body>
+		<h1>This tutorial has been put together by Wang Lei</h1>
+		
+		<div>
+			
+			 <!--New line-->
+			 <img src="{{MEDIA_URL}}cat.jpg" alt="Picture of a cat"/><br/>
+			<img src="{% static "images/rango.jpg"%}"
+			     alt="Picture of Cant" />
+			<a href="/rango/">Index</a><br/>
+		</div>
+
+	</body>
+</html>
