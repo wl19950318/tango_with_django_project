@@ -150,3 +150,5 @@ STATIC_URL = '/static/'
 
 # Restricted
 LOGIN_URL = '/rango/login/'
+#Browsr-length
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
