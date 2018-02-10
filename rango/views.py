@@ -135,7 +135,6 @@ def add_category(request):
 
     return render(request, 'rango/add_category.html', {'form': form})
 
-
 def add_page(request, category_name_slug):
         try:
             category = Category.objects.get(slug=category_name_slug)
