@@ -6,16 +6,18 @@
 		{% endblock %}
 		
 		{% block body_block%}
+		<h1>About...</h1>
+		<p>visits: {{ visits }}</p>
 		<div>
-		<h1>This tutorial has been put together by Wang Lei</h1>
+		This tutorial has been put together by Wang Lei
 		</div>
 		<div>
 		
 			 <!--New line-->
-			 <img src="{{MEDIA_URL}}cat.jpg" alt="Picture of a cat"/><br/>
+			 <img src="{{MEDIA_URL}}cat.jpg" alt="Picture of a cat"/>
 			<img src="{% static "images/rango.jpg"%}"
 			     alt="Picture of Cat" />
 		</div>
-		<p>visits: {{ visits }}</p>
+		
 		{% endblock%}
 	
